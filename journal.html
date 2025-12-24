@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Journal</title>
+</head>
+<body>
+
+<h3>Write like no one will read this.</h3>
+
+<textarea id="entry" rows="10" cols="30"></textarea><br><br>
+
+<button onclick="save()">Save & Close</button>
+
+<script>
+function save() {
+  localStorage.setItem("elia_journal", document.getElementById("entry").value);
+  alert("Thank you for letting this out.");
+  window.location.href = "index.html";
+}
+</script>
+
+</body>
+</html>
