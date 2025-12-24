@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Elia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f6f7f5;
+      text-align: center;
+      padding: 40px;
+    }
+    button {
+      display: block;
+      width: 80%;
+      margin: 15px auto;
+      padding: 15px;
+      border-radius: 25px;
+      border: none;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<h2>You’re allowed to slow down.</h2>
+
+<button onclick="location.href='journal.html'">Write Freely</button>
+<button onclick="location.href='reset.html'">Daily Reset</button>
+<button onclick="location.href='breathe.html'">Breathe</button>
+
+</body>
+</html>
